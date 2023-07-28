@@ -13,7 +13,7 @@ const CartProvider = ({children}) => {
     }, 0);
     setTotal(total);
     console.log(total);
-  });
+  }, [cart]);
 
   useEffect(() => {
     if (cart) {
