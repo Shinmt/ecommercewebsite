@@ -28,7 +28,7 @@ const Product = ({ product }) => {
         </div>
       </div>
     </div>
-    <div>
+        <div>
           <div className=' capitalize font-light'>{category}</div>
           <Link to={`/product/${id}`}>
             <h2 className=' font-semibold mb-1'>{title}</h2>
